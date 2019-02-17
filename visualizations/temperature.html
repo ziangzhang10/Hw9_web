@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Latitude Visualization</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
             <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/temperature.html">Max&nbspTemperature</a>
             <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/humidity.html">Humidity</a>
             <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/cloudiness.html">Cloudiness</a>
-            <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/wind.html">Wind</a>  
+            <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/wind.html">Wind</a>
           </div>
         </div>
       </div><!--end drop down menu-->
@@ -54,26 +54,43 @@
 
     <div class="row">
       <!--Adding text box 1-->
-      <div class="col-md-12">
+      <div class="col-md-7">
         <div class="box">
-          <h1><b>Comparison: Latitude vs. X</b></h1>
+          <h1><b>Max Temperature</b></h1>
           <hr><!--insert a horizontal line-->
+          <!--insert image-->
+          <img src="../images/lat_vs_temp.png", alt="Latitude vs. Temperature", 
+          style="width: 500px">
           <!--two paragraphs-->
-          <p>Click any plot to get an in-depth analysis
+          <p> The max temperature is highest for cities near the equator, and decrease with increasing latitudes; 
+              For high latitudes, the max temperature for the northern hemisphere is much lower than that of the southern hemisphere, 
+              which is possibly due to: 
+              a) there are no cities in Antarctica, therefore we do not have that part of data 
+              b) near latitude -60, it is mostly ocean in the southern hemisphere, resulting in a maritime climate that's relatively mild 
+              c) conversely, in the northern hemisphere near latitude 60, there is giant landmass (Siberia, etc), resulting in very low temp. 
           </p>
-          <!--insert 4 images-->
-          <img src="images/lat_vs_temp.png", alt="Latitude vs. Temperature", 
-          style="width: 500px; margin-bottom: 20px">
-          <img src="images/lat_vs_humidity.png", alt="Latitude vs. Temperature",
-          style="width: 500px; margin-bottom: 20px;">
-
-          <img src="images/lat_vs_cloudiness.png", alt="Latitude vs. Temperature",
-          style="width: 500px; margin-bottom: 20px;">
-          <img src="images/lat_vs_wind.png", alt="Latitude vs. Temperature",
-          style="width: 500px; margin-bottom: 20px;">
-
         </div>
       </div><!--end column-->
+
+      <!--Adding text box 2-->
+      <div class="col-md-4">
+        <div class="box">
+          <h1><b>Visualizations</b></h1>
+          <hr><!--insert a horizontal line-->
+
+          <!--insert 4 images-->
+          <img src="images/lat_vs_temp.png", alt="Latitude vs. Temperature", 
+          style="width: 150px; margin-bottom: 20px">
+          <img src="images/lat_vs_humidity.png", alt="Latitude vs. Temperature",
+          style="width: 150px; margin-bottom: 20px;">
+
+          <img src="images/lat_vs_cloudiness.png", alt="Latitude vs. Temperature",
+          style="width: 150px; margin-bottom: 20px;">
+          <img src="images/lat_vs_wind.png", alt="Latitude vs. Temperature",
+          style="width: 150px; margin-bottom: 20px;">
+        </div>
+      </div><!--end column-->
+
     </div><!--end Row-->
   </div><!--end Container-->
 
