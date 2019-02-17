@@ -18,6 +18,10 @@ body{
     line-height: 50px;
 }
 
+.white{
+    color: white;
+}
+
 .nav-right{
     float: right;
 }
