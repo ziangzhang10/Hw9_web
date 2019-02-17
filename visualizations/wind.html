@@ -56,20 +56,23 @@
       <!--Adding text box 1-->
       <div class="col-md-7">
         <div class="box">
-          <h1><b>Max Temperature</b></h1>
+          <h1><b>Wind Speed</b></h1>
           <hr><!--insert a horizontal line-->
           <!--insert image-->
-          <img src="../images/lat_vs_temp.png", alt="Latitude vs. Temperature", 
+          <img src="../images/lat_vs_wind.png", alt="Latitude vs. Windiness", 
           style="width: 500px">
           <!--two paragraphs-->
-          <p> The max temperature is highest for cities near the equator, and decrease with increasing latitudes; 
-              For high latitudes, the max temperature for the northern hemisphere is much lower than that of the southern hemisphere, 
-              which is possibly due to: 
+          <p> Correlation is not obvious, and the majority of the cities have relatively slow wind. However
             <ol>
-              <li>there are no cities in Antarctica, therefore we do not have that part of data </li>
-              <li>near latitude -60, it is mostly ocean in the southern hemisphere, resulting in a maritime climate that's relatively mild </li>
-              <li>conversely, in the northern hemisphere near latitude 60, there is giant landmass (Siberia, etc), resulting in very low temp. </li>
+              <li>There seem to be some high-wind data points between lat 30 to lat 60, both north and south,
+                  which would correspond to the prevailing westerlies; but we would need more data to confirm</li>
+              <li>In the North there's some extremely strong wind points, which would correspond to the northern edge of Siberia
+                  (on the coast of the Arctic circle), which is reasonable as wind speed can shoot up near the coast for lack of obstacles.</li>
             </ol>
+          </p>
+          <p>
+            St. Helena seems to lie on the ultra-strong wind belt. The probable fact that Napoleon spent the final years of his life
+            in this constant windiness makes me extremely sad.
           </p>
         </div>
       </div><!--end column-->
@@ -82,7 +85,7 @@
 
           <!--insert 4 images-->
           <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/temperature.html">
-            <img class="framed" src="../images/lat_vs_temp.png", alt="Latitude vs. Temperature", 
+            <img src="../images/lat_vs_temp.png", alt="Latitude vs. Temperature", 
             style="width: 150px; margin-bottom: 20px">
           </a>
           <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/humidity.html">
@@ -95,7 +98,7 @@
           style="width: 150px; margin-bottom: 20px;">
           </a>
           <a href="https://ziangzhang10.github.io/Hw9_web/visualizations/humidity.html">
-          <img src="../images/lat_vs_wind.png", alt="Latitude vs. Wind",
+          <img class="framed" src="../images/lat_vs_wind.png", alt="Latitude vs. Wind",
           style="width: 150px; margin-bottom: 20px;">
           </a>
         </div>

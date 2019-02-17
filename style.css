@@ -105,8 +105,22 @@ p{
     color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin-top: 20px;
 }
+
+li{
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
 
 small-image{
     margin: 10px;
+}
+
+/* highlight the image that is currently being visualized */
+img.framed{
+    border: solid 2px;
+    border-color: teal;
 }
