@@ -6,14 +6,14 @@ body{
 /* For the nice looking "Latitude" box on the left */
 .bootstrap-is-useless{
     background: teal;
-    /* height: 50px; */
-    /* width: 100px; */
-    margin-left: 40px;
+    height: 50px;
+    /*width: 100px;*/
+    margin-left: 100px;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     /*color: white;*/
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20px;
     vertical-align: middle;
     line-height: 50px;
 }
